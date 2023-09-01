@@ -128,7 +128,6 @@ header{
 }
 .about-cont{
     text-align: center;
-    height: 530px;
     padding-top: 100px;
 }
 .about-cont h3{
@@ -143,7 +142,7 @@ header{
     display: inline-block;
     text-align: center;
     font-size: 25px;
-    width: 950px
+    max-width: 950px
 }
 .about-cont-text-1{
     margin-bottom: 20px;
@@ -160,8 +159,8 @@ header{
 }
 .team-members{
     display: flex;
-    width: 728px;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: 50px auto;
 }
 .team-member-card p{
@@ -194,8 +193,8 @@ header{
 }
 .functions-links{
     display: flex;
-    justify-content: space-between;
-    width: 980px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: auto;
 }
 .functions-links a{
@@ -225,6 +224,7 @@ header{
     display: flex;
     margin: auto;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .advantages-links a{
     text-decoration: none;
@@ -234,6 +234,7 @@ header{
     padding: 22px 33.5px;
     border-radius: 20px;
     margin-bottom: 22px;
+    margin: 8px;
 }
 .free-link{
     display: block;
