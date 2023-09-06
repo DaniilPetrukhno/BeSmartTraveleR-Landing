@@ -39,6 +39,15 @@ body{
     font-size: 22px;
     margin-right: 25px;
 }
+.nav-google{
+    display: none;
+    margin-top: 15px;
+    margin-bottom: 219px;
+}
+.nav-bar{
+    display: none;
+    margin-bottom: 45px;
+}
 .main-link{
     color: white;
     font-size: 22px;
